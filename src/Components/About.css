@@ -1,0 +1,61 @@
+
+.editcontact1{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.about-section1 {
+  text-align: center;
+  padding: 10px 15px;
+  color: white;
+
+}
+.about-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.line1 {
+display: inline-block;
+width: 100px;
+height: 2px;
+background-color: #fff;
+vertical-align: middle;
+}
+.star1 {
+display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #fff;
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+vertical-align: middle;
+margin: 0 10px;
+
+}
+h1 {
+margin-bottom: 10px;
+}
+.containe{
+  background-color: #009688;
+}
+
+  .editp-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, each taking equal space */
+    gap:5px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; /* Optional: Adjust gap between items */
+  }
+  .editp {
+    padding: 2px; 
+    margin: auto;
+  }
+  
+ 
+
+  
+  

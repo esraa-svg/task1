@@ -1,0 +1,23 @@
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+    border: 1px solid #ccc; 
+    background-color:rgb(28, 198, 255);
+    
+    flex-direction: column;    
+  }
+  .centered img {
+    max-width: 40%;
+    height: auto;
+    margin: 40px;
+  }
+  .centered div {
+    margin-top: 10px; /* Margin above paragraph */
+  }
+  .centered p{
+    font-size: 40px;
+    color: white;
+    font-family: "Quicksand", sans-serif
+}
